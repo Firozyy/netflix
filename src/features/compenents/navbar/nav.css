@@ -1,0 +1,41 @@
+.NAvBAr {
+    position: fixed;
+}
+
+.navbar-brand {
+    width: 70px;
+}
+
+.avatar {
+    width: 40px;
+}
+
+.nav_bar a {
+    color: white;
+
+}
+
+.seccond_potion {
+    display: flex;
+
+
+    margin-right: 10px !important;
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1090px) {
+    .seccond_potion {
+        margin-left: 500px;
+      
+    }
+}
+@media screen and (min-device-width: 1090px) and (max-device-width: 1196px) {
+    .seccond_potion {
+        margin-left: 600px;
+      
+    }
+}
+@media screen and (min-device-width: 1197px) and (max-device-width: 1572px){
+    .seccond_potion {
+        margin-left: 720px;
+    }
+}

@@ -1,0 +1,21 @@
+.poster{
+display: flex;
+overflow-x: scroll;
+overflow-y: hidden;
+}
+.posters {
+max-height: 250px;
+padding-right: 10px;
+cursor: pointer;
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.smallposters {
+    max-height: 150px;
+    padding-right: 10px;
+    cursor: pointer;
+    }
+    .poster :hover{
+        transform: scale(1.1);
+    }
